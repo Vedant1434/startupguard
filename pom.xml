@@ -50,6 +50,12 @@
 			<artifactId>lombok</artifactId>
 			<scope>provided</scope>
 		</dependency>
-
 	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/Vedant1434/startupguard</url>
+		</repository>
+	</distributionManagement>
 </project>
